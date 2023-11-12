@@ -25,7 +25,7 @@ This project is an e-commerce website designed to provide a seamless shopping ex
    ```
 
 ## Accessing the Website
-- **E-commerce Website:** After running `docker-compose up`, the website will be accessible at `http://localhost`.
+- **E-commerce Website:** After running `docker-compose up`, the website will be accessible at `http://localhost:8081`.
 - **phpMyAdmin:** To manage the database, access phpMyAdmin at `http://localhost:8080`.
 - **Admin Panel:** For administrative tasks, visit `http://localhost/App/Admin`.
 
