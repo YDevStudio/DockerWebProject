@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cairo;
+}
+
+body{
+    background: #e6ffee;
+}
+
+header{
+    background: #00cc00;
+}
+
+header img{
+    width: 16%;
+}
+
+.login-img img {
+    width:20%; max-height:20%;
+}
+
+.container-fluid {
+    margin-top: 20px;
+}
+
+.card{
+    margin-top: 50px;
+}
+
+.middle-home .green {
+    color: #00cc00;
+}
+
+.middle-home .green:hover{
+    color: #4dff88;
+}
+
+.middle-home h3{
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #00cc00;
+    font-size: 30px;
+}
+
+.middle-home .center {
+    display: inline-block; 
+    text-align: center;
+}
+
+.middle-home sup{
+    font-size: 25px;
+}
+
+
+.left-nav ul li{
+    border: 1px solid #00cc00;
+    color: #00cc00;
+    
+}
+
+.left-nav ul a{
+    text-decoration: none;
+}
+
+.left-nav ul a:hover{
+    color: #4dff88;
+    font-size: 18px;
+    
+}
+
+.left-nav ul .active {
+    background: #00cc00;
+    font-size: 18px;
+    border: 1px solid #00cc00;
+}
+
+.left-nav ul li ul li{
+    border: none;
+}
+
+.left-nav ul li ul li a {
+    color: #00cc00;
+}
+
+.list-group-item ul li {
+    list-style: none;
+    padding: 5px 0;
+    padding-left: 10px;
+}
+
+.actived {
+    font-weight: bold;
+    color: #6dff88;
+    font-size: 18px;
+}
+
+
+.productadd{
+    padding: 0 20px;
+}
+
+.productadd label {
+    margin: 10px 0;
+}
+
+.productadd input[type=submit]{
+    width: 10%;
+    height: 60%;
+    margin: 20px 0;
+}
+
+.head-commande{
+    background: #E0E0E0	;
+    color: #000;
+}
+
+.head-commande tr th, .head-commande tr td {
+    padding: 5px 10px;
+}
+
+.head-commande a {
+    color: #000;
+}
+
+.head-commande a:hover {
+    color: #000;
+}
+
+.body-commande {
+    border: 1px solid rgb(220,220,220); 
+    table-layout: auto;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.facture{
+    font-size: 20px; 
+    text-align:center;
+    background: #F5F5F5;
+}
+
+.middle-home .padding-toper{
+    padding-top: 5px;
+}
+
+.title-icon{
+    font-size: 25px;
+    margin-right: 19px;
+}
+
+.close span{
+    padding-right: 20px;
+    font-size: 29px;
+    color: red;
+}
+
+.card_card {
+    margin: 20px auto;
+}
+
+.my-custom-scrollbar {
+    position: eelative;
+    height: 400px;
+    overflow: auto;
+    
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+.card_margin{
+    margin: 10px 10px;
+}
+
+.classbgcolor1{
+    background-color:  #ffb3b3;
+}
+.classbgcolor2{
+    background-color:  #ffffcc;
+}
+.classbgcolor3{
+    background-color:   #b3ffb3;
+}

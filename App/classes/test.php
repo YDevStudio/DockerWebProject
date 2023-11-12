@@ -1,0 +1,61 @@
+
+<?php
+	session_start();
+require("assistClass/assist.class.php");
+require("connectionClass/MyListRun.php");
+require("connectionClass/DemandRun.php");
+//require("connectionClass/ProdectRun.php");
+//require("assistClass/Comment.class.php");
+//require("connectionClass/CommentRun.php");
+//require("assistClass/Prodect.class.php");
+//require("connectionClass/UserRun.php");
+echo '<pre>';
+//$id='1';
+//$email='email';
+//$code= assist::coder($id,$email);
+//$icode= assist::incoder('366336393631366436353763');
+//print_r($_SERVER['REMOTE_ADDR']);
+//var_dump($icode);
+//$c= new Comment(['ffuevhjke','1','1']);
+//$p =new Prodect(['name2','type2','2','2','2','ca','190',true,'desc']);
+//$cr = new CommentRun();
+//$cr->addCom($c);
+//$cr->editCom('2','modifie');
+//$cr->reply(1,'reply to comment 1',1);
+//$cr->deleteComment(2);
+//print_r($cr->getComByProdect('1'));
+//print_r($cr->getAllReplysByComent('1'));
+//$pr= new ProdectRun();
+// $pr->editProdect($p,8);
+//print_r($pr->sortProductByX('price'));
+//$pr->deleteP(3);
+//$m = new MyListRun();
+//$m->addItem(1,5);
+//$m->deleteitem(1,4);
+//print_r($m->PinList());
+//$dr=new DemandRun();
+//print_r($p);
+//$dr->addItem(3,7,1);
+//print_r($dr->getCurrentDemand(3));
+//$dr->sendDemand(3);
+//print_r($dr->getSentDemand());
+//print_r($dr->getSentDemandByUser(1));
+//print_r($dr->getSentDemandByIdd(1));
+//print_r($dr->getNSD());
+//$dr->validDemand();
+//print_r($dr->getValidDemand());
+//print_r($dr->getValidDemandByUser(3));
+//print_r($dr->getValidDemandByIdd(1));
+//print_r($dr->getNVD());
+//$dr->completeDemand(1);
+//print_r($dr->getReadyDemand());
+//print_r($dr->getReadyDemandByUser(3));
+//print_r($dr->getReadyDemandByIdd(1));
+//print_r($dr->getNCD());
+//$dr->deleteitem(1,7);
+//$dr->deleteDemand(1);
+//print_r($dr->getBillByDemand(1));    
+    //update demand set state =0 , ddate =null , idd = null where idu =2
+    
+echo '</pre>'; 
+?>
